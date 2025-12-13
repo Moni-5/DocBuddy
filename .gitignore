@@ -1,0 +1,8 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+*
+# Ignore API Key/Secret Files
+.env
+
+# Ignore Python environment folders
+venv/
+__pycache__/
