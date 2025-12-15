@@ -94,6 +94,7 @@ if not API_KEY:
 try:
     # 2. Initialize Client
     CLIENT = genai.Client(api_key=API_KEY)
+    system_instruction=SYSTEM_INSTRUCTION_TEXT
 
     # 3. Create Chat Configuration
     CHAT_CONFIG = types.GenerateContentConfig(
